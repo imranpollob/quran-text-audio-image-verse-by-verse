@@ -2,7 +2,7 @@ import wget
 import os
 
 
-path = 'asset/audio/a'
+path = 'asset/audio/bt'
 
 if not os.path.exists(path):
     os.makedirs(path)
@@ -27,7 +27,7 @@ type = [
 for sura in range(1, 115):
     count = []
     for ayat in range(1, 290):
-        file = 'http://quran.gov.bd/quran/{}/{}/{}/{}-{}.mp3'.format('Sound', type[0], sura, sura, ayat)
+        file = 'http://quran.gov.bd/quran/{}/{}/{}/{}-{}.mp3'.format('Sound', 'bangla', sura, sura, ayat)
 
         try:
             wget.download(file, out=path)
