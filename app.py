@@ -2,7 +2,7 @@ import wget
 import os
 
 
-path = 'result'
+path = 'asset/audio/a'
 
 if not os.path.exists(path):
     os.makedirs(path)
@@ -17,10 +17,9 @@ type = [
 
 for sura in range(1, 115):
     for ayat in range(1, 290):
-        file = 'http://quran.gov.bd/quran/{}/{}/{}-{}.png'.format(type[2], sura, sura, ayat)
+        file = 'http://quran.gov.bd/quran/{}/{}/{}-{}.mp3'.format(type[0], sura, sura, ayat)
 
         try:
             wget.download(file, out=path)
         except:
-            print(ayat)
             break
