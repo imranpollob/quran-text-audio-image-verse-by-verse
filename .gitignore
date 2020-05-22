@@ -1,2 +1,5 @@
 .DS_Store
 .python-version
+.vscode
+result.txt
+app.py
