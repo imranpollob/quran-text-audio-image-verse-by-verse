@@ -2,6 +2,10 @@
 
 Contents included:
 
+📄 Text:
+- 🇸🇦 Arabic text verse by verse
+- 🇧🇩 Bangla text verse by verse
+
 🎵 Audio:
 - 🇸🇦 Arabic audio verse by verse from two different readers
 - 🇧🇩 Bangla audio verse by verse
@@ -13,3 +17,14 @@ Contents included:
 - 🇧🇩 Bangla translation image verse by verse
 - 🇬🇧 English pronunciation image verse by verse
 - 🇬🇧 English translation image verse by verse
+
+Fonts:
+- 🇸🇦 PDMS
+- 🇸🇦 noorehira
+- 🇸🇦 noorehuda
+
+Others:
+- CSS file for PDMS font
+
+> You will see boxes in json which can be automatically omitted by using [PDMS Font](/fonts/pdms). 
+Then apply [this css](/fonts/style.css) to the arabic text.
