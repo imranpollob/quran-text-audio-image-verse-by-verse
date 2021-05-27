@@ -27,4 +27,4 @@ Others:
 - CSS file for PDMS font
 
 > You will see boxes in json which can be automatically omitted by using [PDMS Font](/fonts/pdms). 
-Then apply [this css](/fonts/style.css) to the arabic text.
+Then apply [this css](/fonts/pdms/style.css) to the arabic text.
