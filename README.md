@@ -1,4 +1,4 @@
-# Verse by verse audio and image of Holy Quran in arabic, bangla and english
+# Verse by verse text, audio and image of Holy Quran in Arabic, Bangla and English
 
 Contents included:
 
@@ -18,12 +18,12 @@ Contents included:
 - 🇬🇧 English pronunciation image verse by verse
 - 🇬🇧 English translation image verse by verse
 
-Fonts:
+🔠 Fonts:
 - 🇸🇦 PDMS
 - 🇸🇦 noorehira
 - 🇸🇦 noorehuda
 
-Others:
+🖋️ Others:
 - CSS file for PDMS font
 
 > You will see boxes in json which can be automatically omitted by using [PDMS Font](/fonts/pdms). 
